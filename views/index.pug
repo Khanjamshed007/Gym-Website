@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+  head
+    title STAR BODY GARAGE 
+    style
+      include ../static/style.css
+  body
+    nav#nav 
+        ul 
+            div#logo
+                img(src="/static/logo.jpg")
+            li #[a(href="/") Home] 
+            li #[a(href="/") About Us] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Join Us] 
+            li #[a(href="/") Contact Us]
+    section#introsection 
+        div WELCOME TO STAR BODY GARAGE
+        div.small STAY HEALTHY STAY FIT
+    section#fitnesssection 
+        h2  FITNESS CENTER 
+        div.card
+            h3 Training for Beginners 
+            div.card-box
+                div.card-img
+                    img(src="/static/1.jpg")
+                div.card-content
+                    p This is for the beginners those join recently               
+        div.card
+            h3 Training For Intermidiate 
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg")
+                div.card-content
+                    p This is for the beginners those join recently   
+           
+        div.card  
+            h3 Training For Advance
+            div.card-box
+                div.card-img
+                    img(src="/static/3.jpg")
+                div.card-content
+                    p This is for the beginners those join recently  
+    section#dietsection 
+        | 
+    section#sponsersection 
+        h2 Our sponsors 
+        div#sponsors
+            img(src="/static/logo1.png",alt="sponsor image",class="spimage")
+            img(src="/static/logo2.png",alt="sponsor image",class="spimage")
+            img(src="/static/logo3.jpg",alt="sponsor image",class="spimage")
+    footer#footer 
+        | copyright © 2021 starbodygarage.com | All reserved   
+
+    script
+      include ../static/index.js

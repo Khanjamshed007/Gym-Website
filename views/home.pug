@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+     
+    section#introsection 
+        div WELCOME TO STAR BODY GARAGE
+        div.small STAY HEALTHY STAY FIT
+    section#fitnesssection 
+        h2  FITNESS CENTER 
+        div.card
+            h3 Training for Beginners 
+            div.card-box
+                div.card-img
+                    img(src="/static/1.jpg")
+                div.card-content
+                    p This is for the beginners those join recently               
+        div.card
+            h3 Training For Intermidiate 
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg")
+                div.card-content
+                    p This is for the beginners those join recently   
+           
+        div.card  
+            h3 Training For Advance
+            div.card-box
+                div.card-img
+                    img(src="/static/3.jpg")
+                div.card-content
+                    p This is for the beginners those join recently  
+    section#dietsection 
+        | 
+    section#sponsersection 
+        h2 Our sponsors 
+        div#sponsors
+            img(src="/static/logo1.png",alt="sponsor image",class="spimage")
+            img(src="/static/logo2.png",alt="sponsor image",class="spimage")
+            img(src="/static/logo3.jpg",alt="sponsor image",class="spimage")      
+    

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+} 
+#logo img{
+    height: 65px;
+    filter: invert();
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 3px;
+
+}
+.card-img img{
+    height: inherit;
+    padding: 0 12px;
+
+}
+.card-content{
+    padding: 0 12px;
+
+}
+.card-content p{
+    font-size: 20px;
+
+}
+
+#nav{
+    background-color: black;
+    padding: 0px 7px;
+    font-family: 'Anton', sans-serif;
+}
+#nav ul{
+    display: flex;
+    flex-direction: row;
+    
+} 
+#nav li{
+    list-style: none;
+    padding:16px 36px;
+    font-size: 20px;
+
+
+}
+#nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav li a:hover{
+    color: red;
+}
+#introsection{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: center / cover no-repeat url("/static/bg1.jpg");
+    background-color: red;
+    height: 645px;
+    width: 100%;
+    padding-bottom: 150px;
+
+}
+ #introsection div.small{
+    font-size: 3rem;
+
+}
+
+#fitnesssection{
+    background: center / cover no-repeat url("/static/bg.jpg");
+    background-color: red;
+    height: 720px;
+    width: 100%;
+}
+#fitnesssection h2{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+
+
+}
+#dietsection{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    background-color: red;
+    height: 730px;
+    width: 100%;
+    padding-bottom: 150px;
+}
+#sponsersection{
+    height: 285px;
+    background-color: #a3caa3;
+
+}
+
+#sponsersection h2{
+    text-align: center;
+    padding-top:15px;
+    font-size: 45px;
+}
+#sponsors{
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.spimage{
+    height: 160px;
+    align-items: center;
+    margin: 20px auto;
+    padding: 8px 30px;
+}
+#footer{
+    display: flex;
+    height: 59px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+
+} 
+.card{
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    width: 31%;
+    display: inline-block;
+    margin: 34px 10px;
+    height: 250px;
+}
+.card h3{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}

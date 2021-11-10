@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/stylejoin.css
+block content 
+    div.container
+        h1 JOIN US
+        form(action="/join",method="post",class="form")
+            input(type="text",class="input",name="name",placeholder="Enter Your Name")   
+            input(type="text",class="input",name="age",placeholder="Enter Your age")   
+            input(type="text",class="input",name="number",placeholder="Enter Your number")   
+            input(type="text",class="input",name="gender",placeholder="Enter Your gender")   
+            input(type="email",class="input",name="email",placeholder="Enter Your email id")   
+            input(type="text",class="input",name="address",placeholder="Enter Your address")   
+            button(class="btn")
+                | submit
